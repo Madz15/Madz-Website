@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title> Madina CV Website</title>
+        
+        <link rel="stylesheet" href="style.css">
+        
+        <script src="https://kit.fontawesome.com/df3d0bc8bb.js" crossorigin="anonymous"></script>
+
+        <style>
+            /* A CSS class to control the image size */
+            .rounded-logo {
+                width: 200px; /* the width of the logo */
+                height: 200px; /* the aspect ratio */
+                border-radius: 50%; /* Make it round */
+            }
+        </style>
+</head>
+    
+    <body>
+    
+        <div id="header">
+        <div class="container">
+            <nav>
+
+                <img src="images/M.png" class="logo small-logo rounded-logo">
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+           
+            </nav>
+
+            <div class="header-text">
+            <p>Graduated in Computer Science</p>
+            <h1>Hi, I'm <span> Madina</span><br>Lawani From London</h1>
+        </div>
+    </div>
+</div> 
+
+<!-----------about------------>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/madz-modified.png">
+            </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        After graduating in September 2023, I have gained technical expertise and skills through my academic journey and previous work experiences. I am proficient in multiple programming languages, operating systems, and development tools. I also have hands-on experience in the system development life cycle. My passion for mobile technology drives me to pursue a graduate program in software development.
+                    </p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('classifications')">Classifications</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>  
+                            <li><span>Web Development</span><br>Web/App development</li>  
+                            <li><span>App Development</span><br>Building Android apps</li>  
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>October 2021 - September 2023</span><br>Student Ambassador (University of East London)</li>  
+                            <li><span>July 2021</span><br>Technology Consultant (EY - Bright Network)</li>  
+                            <li><span>November 2018 - March 2020</span><br>Private Child - Care Worker</li>  
+                            <li><span>March 2016 - September 2016</span><br>Healthcare Assistant</li> 
+                            <li><span>November 2015 - March 2016</span><br>Sales Advisor (River Island)</li>   
+
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>October 2020 - September 2023</span><br>Bachelor of Science in Computer Science (University of East London)</li>  
+                            <li><span>July 2020</span><br>NCFE Level 2 Functional Skills Qualification in English (Beckton Globe)</li>
+                            <li><span>July 2020</span><br>NCFE Level 2 Functional Skills Qualification in Mathematics (Beckton Globe)</li>
+                            <li><span>March 2003</span><br>Bachelor of Science in Computer Science (University of Saint Anthony)</li>
+                            <li><span>March 1999</span><br>Secondary (University of Saint Anthony)</li>
+                            <li><span>March 1995</span><br>Primary (San Isidro Elementary School)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="classifications">
+                        <ul>
+                            <li><span>Bachelor of Science in Computer Science</span><br>FIRST CLASS</li>
+                            <li><span>Database Systems</span><br>88%</li>  
+                            <li><span>Web and Mobile Application Development</span><br>83%</li>
+                            <li><span>Computer and Network Security</span><br>88%</li>
+                            <li><span>Communications and Networks</span><br>73%</li>
+                            <li><span>Mobile and Distributed Systems</span><br>73%</li>
+                            <li><span>Artificial Intelligence</span><br>88%</li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+</div>
+</div>
+</div>
+<!-----------skills------------>
+<div id="skills">
+<div class="container">
+    <h1 class="sub-title">My Skills</h1>
+    <div class="skills-list">
+       
+        <div>
+
+        <i class="fa-solid fa-code"></i>   
+        <h2>Programming Languages</h2>
+        <p>I have experience with various programming languages that I studied during my time in university.</p>
+        <a href="programming_languages.html">Learn More</a>
+        </div>
+
+        <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>Databases</h2>
+        <p>These databases are among the ones I have encountered and gained experience with.</p>
+        <a href="databases.html">Learn More</a>
+        </div>
+
+        <div>
+            <i class="fa-solid fa-diagram-project"></i>
+            <h2>Miscellaneous</h2>
+            <p>I have hands-on experience with a variety of tools and software.</p>
+            <a href="miscellaneous.html">Learn More</a>
+            </div>
+
+    </div>
+</div>
+
+</div>
+
+<!-----------portfolio------------>
+<div id="portfolio">
+<div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="images/work-1.png">
+            <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects to talented people. for more info click the link</p>
+<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+
+
+        </div>
+
+        <div class="work">
+            <img src="images/work-2.png">
+            <div class="layer">
+                <h3>Music App</h3>
+                <p>The app connects to talented people. for more info click the link</p>
+    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+        </div>
+
+        <div class="work">
+            <img src="images/work-3.png">
+            <div class="layer">
+                <h3>Online Shopping App</h3>
+                <p>The app connects to talented people. for more info click the link</p>
+                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+<a href="#" class="btn">See More</a>
+
+</div>
+</div>
+
+
+<!-----------contact------------>
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>madina.lawani15@gmail.com</p>
+            <p>+447563050693</p>
+            <div class="social-icons">
+                <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+
+            </div>
+
+            <a href="images/Madina Lopez Lawani CV 2023-2024 - Copy.pdf" download class="btn btn2">Download CV</a>
+
+        </div>
+        <div class="contact-right">
+<form name="submit-to-google-sheet" >
+<input type="text" name="Name" placeholder="Your Name" required>
+<input type="email" name="Email" placeholder="Your Email" required>
+<textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+<button type="submit" class="btn btn2">Submit</button>
+</form>
+
+<span id="msg"></span>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+<p>©2023 Madina Lawani All Rights Reserved</p>
+
+</div>
+
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link"); /*for clicking skills, experience and education*/
+    document.getElementById(tabname).classList.add("active-tab"); /*to show the contents when you click the skills etc...*/
+}
+
+
+        </script>
+
+<script>
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw6F0Krob-tRbRQDQPXI4Uu5IB85kIZsEdYlLCJqAQRPTVYGrvacYG-dRv1xc1JQNIf/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){msg.innerHTML = "" },5000)
+        form.reset()})
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
